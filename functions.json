@@ -1,0 +1,18 @@
+{
+    "functions": [
+        {
+            "description": "Translit from Ukrainian to English",
+            "id": "TRANSLIT",
+            "name": "TRANSLIT",
+            "parameters": [
+                {
+                    "name": "nameVal",
+                    "type": "any"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
