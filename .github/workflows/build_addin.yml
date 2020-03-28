@@ -28,6 +28,6 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: drop
-        path: /dist
+        path: ./dist
       env:
         CI: true
