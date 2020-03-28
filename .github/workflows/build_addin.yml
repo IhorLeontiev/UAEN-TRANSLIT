@@ -29,5 +29,11 @@ jobs:
       with:
         name: drop
         path: ./dist
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GTH_TK }}
+        BRANCH: gh-pages
+        FOLDER: dist    
       env:
         CI: true
